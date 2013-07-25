@@ -51,6 +51,14 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
+	<dependency>
+            <groupId>com.ryantenney.metrics</groupId>
+            <artifactId>metrics-spring</artifactId>
+            <version>3.0.0-RC2-SNAPSHOT</version>
+            <type>jar</type>
+            <scope>compile</scope>
+	    <optional>true</optional>
+    	</dependency>
 
         <dependency>
             <groupId>com.codahale.metrics</groupId>
