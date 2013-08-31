@@ -28,7 +28,7 @@ public class LibratoReporterElementParser extends AbstractReporterElementParser 
 		c.require(PERIOD, DURATION_STRING_REGEX, "Period is required and must be in the form '\\d+(ns|us|ms|s|m|h|d)'");
 
 		c.optional(API_URL);
-		c.optional(PERIOD, DURATION_STRING_REGEX, "Timeout must be in the form '\\d+(ns|us|ms|s|m|h|d)'");
+		c.optional(TIMEOUT, DURATION_STRING_REGEX, "Timeout must be in the form '\\d+(ns|us|ms|s|m|h|d)'");
 		c.optional(NAME);
 		c.optional(SANITIZER_REF);
 		c.optional(CLOCK_REF);
